@@ -1,0 +1,18 @@
+{
+  "name": "confit-conflict",
+  "version": "1.0.0",
+  "description": "Just to test Babel conflicts with Confit",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf node_modules; npm i; node .",
+    "test2": "rm -rf node_modules; npm i; npm i; node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "confit": "^2"
+  },
+  "devDependencies": {
+    "babel-runtime": "^5.8.35"
+  }
+}
